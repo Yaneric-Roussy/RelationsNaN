@@ -13,5 +13,7 @@ namespace RelationsNaN.Models
         public Genre? Genre { get; set; }
         [ValidateNever]
         public List<Platform> Platforms { get; set; }
+        [ValidateNever]
+        public List<GamePurchase> GamePurchases { get; set; }
     }
 }
